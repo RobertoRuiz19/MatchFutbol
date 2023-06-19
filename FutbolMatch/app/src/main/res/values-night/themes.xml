@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FutbolMatch" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+    <style name="fab">
+        <item name="android:backgroundTint">#240981</item>
+        <item name="tint">#FFFFFF</item>
+    </style>
+
+    <style name="barra">
+        <item name="android:backgroundTint">#5B49FF</item>
+    </style>
+
+    <style name="icons">
+        <item name="itemIconTint">#FFFFFF</item>
+        <item name="itemTextColor">#FFFFFF</item>
+    </style>
+</resources>

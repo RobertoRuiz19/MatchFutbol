@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "467024925088",
+    "project_id": "matchfutbol-8e738",
+    "storage_bucket": "matchfutbol-8e738.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467024925088:android:343be7928dcf907876d4c5",
+        "android_client_info": {
+          "package_name": "com.example.futbolmatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467024925088-dbou2si8rlg6gvotgs14n7pd9s98h07v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.futbolmatch",
+            "certificate_hash": "f50e809d3e206de4318ac9730731d31ee9a2e471"
+          }
+        },
+        {
+          "client_id": "467024925088-mhffqsbv0gj4fritqbf9jmfgqccer1fp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.futbolmatch",
+            "certificate_hash": "616f257bac8b85b44cff893d01c1812080381cf9"
+          }
+        },
+        {
+          "client_id": "467024925088-cb2gq584qc9hd5o8ii8rbhn8a03nr7c0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPMVH-mxaOnJLeSzvfJ1zLIdpGibRiTv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467024925088-aiqicr3mr46b1sevmp325atplqofdo3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

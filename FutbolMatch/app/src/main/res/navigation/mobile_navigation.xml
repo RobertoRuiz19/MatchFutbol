@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_equipos">
+
+    <fragment
+        android:id="@+id/navigation_equipos"
+        android:name="com.example.futbolmatch.ui.equipos.EquiposFragment"
+        android:label="@string/title_equipos"
+        tools:layout="@layout/fragment_equipos" >
+        <action
+            android:id="@+id/action_navigation_equipos_to_detallesEquipo"
+            app:destination="@id/detallesEquipo" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detallesEquipo"
+        android:name="com.example.futbolmatch.ui.detalles_equipo.DetallesEquipo"
+        android:label="fragment_detalles_equipo"
+        tools:layout="@layout/fragment_detalles_equipo" >
+        <action
+            android:id="@+id/action_detallesEquipo_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.futbolmatch.login.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/navigation_resultados"
+        android:name="PartidosFragment"
+        android:label="@string/title_resultados" />
+    <activity
+        android:id="@+id/adminActivity"
+        android:name="com.example.futbolmatch.login.AdminActivity"
+        android:label="AdminActivity" />
+    <fragment
+        android:id="@+id/navigation_clasificacion"
+        android:name="ClasificacionFragment"
+        android:label="ClasificacionFragment" />
+    <activity
+        android:id="@+id/splash"
+        android:name="com.example.futbolmatch.Splash"
+        android:label="Splash" />
+    <activity
+        android:id="@+id/perfil"
+        android:name="com.example.futbolmatch.login.Perfil"
+        android:label="activity_perfil"
+        tools:layout="@layout/activity_perfil" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.futbolmatch.ui.maps.MapsFragment"
+        android:label="MapsFragment" >
+        <action
+            android:id="@+id/action_mapsFragment_to_detallesEquipo"
+            app:destination="@id/detallesEquipo" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.futbolmatch.MainActivity"
+        android:label="MainActivity" />
+    <activity
+        android:id="@+id/register2"
+        android:name="com.example.futbolmatch.login.Register"
+        android:label="Register" />
+    <activity
+        android:id="@+id/login"
+        android:name="com.example.futbolmatch.login.Login"
+        android:label="activity_register"
+        tools:layout="@layout/activity_register" />
+</navigation>

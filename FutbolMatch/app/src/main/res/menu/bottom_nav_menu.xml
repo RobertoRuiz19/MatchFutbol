@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_equipos"
+        android:icon="@drawable/equipos_icon"
+        android:title="@string/title_equipos"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/navigation_clasificacion"
+        android:icon="@drawable/tabla_icon"
+        android:title="@string/title_clasificacion"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/navigation_resultados"
+        android:icon="@drawable/partidos_icon"
+        android:title="@string/title_resultados"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:id="@+id/navigation_vacio"
+        android:title="@string/title_vacio"/>
+
+</menu>
